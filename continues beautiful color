@@ -1,0 +1,13 @@
+import turtle
+t=turtle.Turtle()
+list1=['red','blue','green','black']
+t.up()
+t.goto(200,0)
+for i in range(4):
+    t.down()
+    t.fillcolor(list1[i])
+    t.begin_fill()
+    t.circle(50)
+    t.end_fill()
+    t.up()
+    t.bk(100)
