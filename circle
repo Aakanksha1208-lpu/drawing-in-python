@@ -1,0 +1,8 @@
+#to draw circle
+import turtle
+t=turtle.Turtle()
+wn=turtle.Screen()
+wn.bgcolor("red")
+t.circle(100)
+t.hideturtle()
+
